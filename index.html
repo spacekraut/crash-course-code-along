@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(208, 81, 81);
+            border: solid black 1px;
+            width: 300px;
+            height: 170px;
+        }
+        /* .form-background{
+            background-color: aqua;
+        } */
+        form label {
+            margin-right: 100px;
+        }
+        #submit-btn{
+            width: 147px;
+        }
+    </style>
+</head>
+<body>
+    <h1>JS Crash Course</h1>
+
+    <form id="my-form" class ="form-background">
+        <label for="name">Name:</label>
+        <input type="text" name="" id="name">
+        <label for="name">Email:</label>
+        <input type="text" name="" id="email">
+        <button id="submit-btn">Submit</button>
+    </form>
+
+    <ul id="users"></ul>
+
+    <!-- <ul class="items">
+        <li class="items">Item 1</li>
+        <li class="items">Item 1</li>
+        <li class="items">Item 1</li>
+    </ul> -->
+
+<script src="js.js"></script>
+</body>
+</html>
